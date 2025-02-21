@@ -1,0 +1,31 @@
+1)
+Un commit enregistre la modification localement, et le push l'envoie vers la repositorie.
+
+2)
+git log
+
+3)
+En cas de commit ou de push il ne sera pas pris en compte.
+
+4)
+git rebase -i nom_de_la_branch (pas celle dans la quelle on se trouve mais l'anterrieur)
+
+5)
+git push origin --force-with-lease nom_de_la_branch (pas celle dans la quelle on se trouve mais l'anterrieur)
+
+6)
+git clone (liens_du_depot).git
+
+7)
+git add index.html
+
+8)
+git fetch --all (met à jour les références locales avec les branches distantes, sans les fusionner)
+git branch -r (affiche uniquement les branches du dépôt distant)
+
+9)
+git fetch origin develop
+
+
+10)
+git checkout nom_de_la_branch
